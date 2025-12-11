@@ -68,7 +68,9 @@ frontend/
 RUNNING THE PROJECT
 ----------------------------------------------------
 
-A) Running with Backend (Full Functionality)
+A) Running the Code
+
+Add .env files in both Frontend and Backend as shown in .env.example
 
 1. Backend Setup
    cd backend
@@ -78,7 +80,7 @@ A) Running with Backend (Full Functionality)
 
    Ensure .env contains:
      OPENAI_API_KEY=your-key
-     OPENAI_ENABLED=true
+     `
      OPENAI_MODEL=gpt-4o-mini
 
    Run backend:
@@ -94,7 +96,11 @@ A) Running with Backend (Full Functionality)
    Open: http://localhost:5173
 
 
+### Running with Docker
 
+1. Clone the repository
+2. Add .env in frontend and backend as show in .env.example
+3. Run docker-compose up --build
 
 
 ----------------------------------------------------
